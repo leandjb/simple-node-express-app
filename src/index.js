@@ -4,10 +4,10 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-    res.send("EXPRESS Server Running...")
+    res.send("EXPRESS API Server Running...")
 });
 
 app.listen(PORT, () =>{
-    console.log(`Node Express Server running on http://localhost:${PORT}`)
+    console.log(`EXPRESS API Server running on http://localhost:${PORT}`)
 });
 
